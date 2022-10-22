@@ -1,0 +1,23 @@
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    :root{
+        font-size: 62.5%;
+    }
+
+    header {
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 12vh
+    }
+    #logotipo {
+        display: flex;
+    }
+    #logotipo h1 {
+        font-size: 2.5em
+    }
+    
