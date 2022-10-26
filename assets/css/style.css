@@ -40,13 +40,66 @@
         display:flex;
         justify-content: space-around;
         align-items: center;
-        width: 90%
+        width: 100%
         
     }
     .banner span {
         opacity: 0.7;
-        margin: 0% 25%;
+
         cursor:pointer;
         font-size:3.3rem
     }
+    .pos-banner {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap
+    }
 
+    .pos-banner div h2, .pos-banner div p, .pos-banner div img  {
+        background-color: #EEEEEE;
+        width:95%;
+        margin: 1px
+    }
+
+    .pos-banner div {
+        width: 28%;
+        display:flex;
+        flex-direction: column;
+        height: 45vh;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .your-style {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #industrial {
+        background-image: url(/assets/img/Rectangle\ 11.png);
+        background-position:center;
+        background-repeat: no-repeat
+    }
+    #mordern {
+        background-image: url(/assets/img/Rectangle\ 12.png);
+        background-position:center;
+        background-repeat: no-repeat;
+    }
+    #classic{
+       background-image: url(/assets/img/Rectangle\ 13.png);
+       background-position:center;
+       background-repeat: no-repeat
+    }
+    .your-style div img{
+        opacity: 0.6
+    }
+    .your-style div {
+        display:flex;
+        height: 20vh;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin: -2%
+
+    }
