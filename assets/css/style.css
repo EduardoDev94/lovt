@@ -9,6 +9,14 @@
     body {
         font-family: 'Ropa Sans', sans-serif;
     }
+       
+    .container{
+        max-width: 1200px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+     }
 
     header {
         width:100%;
@@ -53,53 +61,89 @@
         display:flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        width:100%
     }
 
     .pos-banner div h2, .pos-banner div p, .pos-banner div img  {
         background-color: #EEEEEE;
-        width:95%;
-        margin: 1px
+        width:90%;
+        margin: 1px;
+        color:#555555
     }
 
     .pos-banner div {
-        width: 28%;
+        width: 30%;
         display:flex;
         flex-direction: column;
         height: 45vh;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap
      }
 
      .your-style {
         display:flex;
         flex-direction: column;
         align-items: center;
+        width:100%
     }
     #industrial {
         background-image: url(/assets/img/Rectangle\ 11.png);
         background-position:center;
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600
     }
     #mordern {
         background-image: url(/assets/img/Rectangle\ 12.png);
         background-position:center;
         background-repeat: no-repeat;
+        opacity: 0.7;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600
     }
     #classic{
        background-image: url(/assets/img/Rectangle\ 13.png);
        background-position:center;
-       background-repeat: no-repeat
+       background-repeat: no-repeat;
+       opacity: 0.7;
+       color: white;
+       font-size: 1.5rem;
+       font-weight: 600
     }
-    .your-style div img{
-        opacity: 0.6
-    }
+
     .your-style div {
         display:flex;
         height: 20vh;
         width: 70%;
         justify-content: center;
         align-items: center;
-        margin: -2%
-
+        margin: -2%;
+        gap: 5px
+    }
+    #solo-style {
+        color:#888888;
+        font-size: 1.5rem;
+        font-weight: 600
+    }
+    .rodape{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height:40vh;
+        background-color: #333333;
+        margin-top: 20px
+    }
+    .icons img {
+        width:20px;
+        height:20px;
+        background-color: white;
+        margin: 5px
+    }
+    .informations h3 {
+        margin:5px
     }
